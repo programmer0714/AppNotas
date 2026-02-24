@@ -35,29 +35,32 @@ Utiliza Material Design, un botón flotante y tarjetas para mostrar cada nota de
 
 ---
 
+
 ## 📂 Estructura del proyecto
 
+```
 app/
 ├── java/
-│ └── com.rhsoft.appnotas/
-│ ├── MainActivity.java
-│ ├── AddNoteActivity.java
-│ ├── EditNoteActivity.java
-│ ├── NotasAdapter.java
-│ └── Nota.java
+│   └── com.rhsoft.appnotas/
+│       ├── MainActivity.java
+│       ├── AddNoteActivity.java
+│       ├── EditNoteActivity.java
+│       ├── NotasAdapter.java
+│       └── Nota.java
 │
 └── res/
-├── layout/
-│ ├── activity_main.xml
-│ ├── activity_add_note.xml
-│ ├── activity_edit_note.xml
-│ └── item_nota.xml
-├── drawable/
-│ ├── boton_fondo.xml
-│ └── boton_fondo_sec.xml
-└── values/
-├── colors.xml
-└── themes.xml
+    ├── layout/
+    │   ├── activity_main.xml
+    │   ├── activity_add_note.xml
+    │   ├── activity_edit_note.xml
+    │   └── item_nota.xml
+    ├── drawable/
+    │   ├── boton_fondo.xml
+    │   └── boton_fondo_sec.xml
+    └── values/
+        ├── colors.xml
+        └── themes.xml
+```
 
 
 ---

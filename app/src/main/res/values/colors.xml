@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores generales -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Fondo de la app -->
+    <color name="fondoApp">#ECEFF1</color>
+    <color name="cardFondo">#FFFFFF</color>
+    <color name="cardSombra">#B0BEC5</color>
+
+    <!-- Colores para botones -->
+    <color name="botonPrimario">#1976D2</color>      <!-- Azul fuerte -->
+    <color name="botonSecundario">#455A64</color>    <!-- Gris azulado -->
+    <color name="botonTexto">#FFFFFF</color>         <!-- Blanco -->
+
+    <!-- Color para botón Eliminar -->
+    <color name="colorError">#D32F2F</color>
+
+</resources>

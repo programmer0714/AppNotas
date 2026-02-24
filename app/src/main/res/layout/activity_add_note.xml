@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/fondoApp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Nota"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:background="@drawable/card_note"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editContenido"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Contenido"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card_note"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Nota"
+        android:background="@drawable/boton_fondo"
+        android:textColor="@color/botonTexto"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

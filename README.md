@@ -36,3 +36,55 @@ Utiliza Material Design, un botón flotante y tarjetas para mostrar cada nota de
 ---
 
 ## 📂 Estructura del proyecto
+
+app/
+├── java/
+│ └── com.rhsoft.appnotas/
+│ ├── MainActivity.java
+│ ├── AddNoteActivity.java
+│ ├── EditNoteActivity.java
+│ ├── NotasAdapter.java
+│ └── Nota.java
+│
+└── res/
+├── layout/
+│ ├── activity_main.xml
+│ ├── activity_add_note.xml
+│ ├── activity_edit_note.xml
+│ └── item_nota.xml
+├── drawable/
+│ ├── boton_fondo.xml
+│ └── boton_fondo_sec.xml
+└── values/
+├── colors.xml
+└── themes.xml
+
+
+---
+
+## 🚀 Instalación y ejecución
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/usuario/AppNotas.git
+2. Abrir el proyecto en Android Studio.
+
+3. Esperar a que Gradle sincronice.
+
+4. Ejecutar en un emulador o dispositivo físico.
+
+   🧩 Objetivo del proyecto
+
+El propósito de este proyecto es:
+
+Practicar el uso de RecyclerView y adaptadores.
+
+Manejar actividades usando startActivityForResult.
+
+Implementar almacenamiento local sin base de datos.
+
+Desarrollar lógica CRUD básica (Crear, Leer, Actualizar, Eliminar).
+
+📄 Licencia
+
+Este proyecto es completamente libre para fines educativos y personales.
